@@ -3,10 +3,34 @@ body {
 }
 
 header {
-    background-color: rgb(52, 68, 63);
-    height: 40%;
+    background-color: rgb(29, 169, 104);    
 }
 
-h1 {
-    color: rgb(151, 143, 143);
+.logo{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    text-align:top;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.twitter{
+    width:35px;
+    height:35px;
+}
+
+.intagram{
+    width:35px;
+    height:35px;
+    
+}
+
+.facebook{
+    width:35px;
+    height:35px;
+    text-align: end;
 }
