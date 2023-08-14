@@ -3,18 +3,20 @@ body {
 }
 
 header {
-    background-color: rgb(29, 169, 104);    
+    background-color: rgb(29, 169, 104);  
+    height: 150px;  
 }
 
 .logo{
     padding-top: 1%;
     padding-left: 1%;
+    float: left;
 }
 
 .h1{
     color: rgb(255, 255, 255);
-    text-align:top;
-    text-align:center;
+   
+    float: initial;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -51,25 +53,29 @@ height: 30px;
         float: left;
         padding:0px;
         margin: 0;
-        width: 80px;
-        border-left: #666666 thin solid;
+        width: 14%;
+        height: 10%;
         }
         
         .menuhorizontal a{
             display: block;
             text-decoration: none;
             padding: 6px;
-            background-color: #CCCCCC;
+            background-color: #17BF41;
             font-family:Verdana, Arial, Helvetica, sans-serif;
-            font-size: 14px;
+            font-size: 100%;
             font-weight: bold;
             }
             
             .menuhorizontal :hover{
-                background-color: #EEEEEE;
+                background-color: #118F31;
                 text-decoration: none;
-                color: #FFFFFF;
+                color: #000000;
                 }
 
                 .menuhorizontal li.btnesquerdo{
                     border: none;}
+
+footer{
+    background-color: green;
+}                    
