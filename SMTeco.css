@@ -1,11 +1,35 @@
 body {
-    background-image:url(https://img.freepik.com/fotos-premium/fileiras-de-vegetais-de-pimenta-crescem-no-campo-agricultura-agricultura_72572-4.jpg?w=2000)
-}
+    background-image: url(https://img.freepik.com/fotos-premium/fileiras-de-vegetais-de-pimenta-crescem-no-campo-agricultura-agricultura_72572-4.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    z-index: -1;
+  }
+
 
 header {
     background-color: rgb(29, 169, 104);  
     height: 150px;  
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
+
 
 .logo{
     padding-top: 1%;
@@ -13,69 +37,151 @@ header {
     float: left;
 }
 
+
 .h1{
     color: rgb(255, 255, 255);
-   
     float: initial;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .twitter{
     width:35px;
     height:35px;
+    margin: left 15px;
+    cursor:pointer;
 }
+
 
 .intagram{
     width:35px;
     height:35px;
-    
+    cursor:pointer;
 }
+
 
 .facebook{
     width:35px;
     height:35px;
     text-align: end;
+    margin-left: 18px;
+    cursor:pointer;
 }
 
+
 .menuhorizontal{
-margin: 0;
-padding: 0;
-width: auto;
-height: 30px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 30px;
 }
+
 
 .menuhorizontal ul{
     list-style: none;
-    }
+}
 
-    .menuhorizontal li{
-        display: inline;
-        float: left;
-        padding:0px;
-        margin: 0;
-        width: 14%;
-        height: 10%;
-        }
+
+.menuhorizontal li{
+    display: inline;
+    float: left;
+    padding:0px;
+    margin: 0;
+    width: 14%;
+    height: 10%;
+}
         
-        .menuhorizontal a{
-            display: block;
-            text-decoration: none;
-            padding: 6px;
-            background-color: #17BF41;
-            font-family:Verdana, Arial, Helvetica, sans-serif;
-            font-size: 100%;
-            font-weight: bold;
-            }
-            
-            .menuhorizontal :hover{
-                background-color: #118F31;
-                text-decoration: none;
-                color: #000000;
-                }
 
-                .menuhorizontal li.btnesquerdo{
-                    border: none;}
+.menuhorizontal a{
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #17BF41;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+.menuhorizontal :hover{
+    background-color: #118F31;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.menuhorizontal li.btnesquerdo{
+    border: none;
+}
+
 
 footer{
     background-color: green;
-}                    
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.logoinstagram{
+    padding-left: 1.5%;
+}
+
+
+.intagramfacebook{
+    padding-left: 1.5%;
+}
+
+
+.logotwitter{
+    padding-left: 1.5%;
+}
+
+
+main{
+    background-color: rgba(83, 234, 49, 0.74);
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 300px;
+    width: 85%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.h1main{
+    padding-left:1%;
+    padding-top:1%;
+}
+
+
+.tópico1 {
+    margin-top: 3.5%;
+}
+
+
+.tópico2 {
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+}
+
+
+.PalavraDoSocial {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    color: beige;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.logotwitter:hover .social-text,
+.logoinstagram:hover .social-text,
+.instagramfacebook:hover .social-text {
+  opacity: 1;
+}
