@@ -100,7 +100,7 @@ header {
 .menuhorizontal :hover{
     background-color: #18e11100;
     text-decoration: none;
-    color: #000000;
+    color: #67f724;
     opacity: 1;
     transition: background-color opacity 0.3s ease-in-out;
 }
@@ -149,6 +149,18 @@ main{
     margin-bottom: 3.5%;
 }
 
+.tópico3 {
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+}
+
+.tópico4 {
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+    height: 50%;
+}
+
+
 .PalavraDoSocial {
     display: block;
     text-align: center;
@@ -166,6 +178,24 @@ main{
 }
 
 .TextoDeTítulo1 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
+.TextoDeTítulo2 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
+.TextoDeTítulo3 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
+.TextoDeTítulo4 {
     text-align: center;
     align-items: center;
     color: rgb(64, 96, 33);
