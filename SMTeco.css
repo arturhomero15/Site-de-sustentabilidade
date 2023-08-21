@@ -1,7 +1,9 @@
 body {
+    
     background-image: url(https://img.freepik.com/fotos-premium/fileiras-de-vegetais-de-pimenta-crescem-no-campo-agricultura-agricultura_72572-4.jpg?w=2000);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -107,26 +109,19 @@ header {
     border: none;
 }
 
-footer{
-    background-color: green;
-    border-top-left-radius: 30px; 
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-bottom: 1%;
-}
 
 .logoinstagram{
     transform: translate(44%, 10%);
 }
 
-.logofacebook{
-    transform: translate(51%, -99%);
+.logotwitter{
+    transform: translate(48%, 110%);
 }
 
-.logotwitter{
-    transform: translate(49%, 105%);
+.logofacebook{
+    transform: translate(50.5%, -90%);
 }
+
 
 main{
     background-color: rgba(89, 239, 55, 0.74);
@@ -176,6 +171,16 @@ main{
     color: rgb(64, 96, 33);
 }
 
+footer{
+    background-color: green;
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 1%;
+    height: 250px;
+}
+
 .ImagemNoFooter {
     display: flex;
     justify-content: center;
@@ -185,4 +190,5 @@ main{
 
 .h1contatos{
     padding-left:1.5%;
+    transform: translate(37%, 235%);
 }
