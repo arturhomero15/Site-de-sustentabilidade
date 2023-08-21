@@ -20,9 +20,8 @@ body {
     z-index: -1;
   }
 
-
 header {
-    background-color: rgb(29, 169, 104);  
+    background-color: rgba(29, 169, 104, 0);  
     height: 150px;  
     border-top-left-radius: 30px; 
     border-top-right-radius: 30px;
@@ -30,20 +29,18 @@ header {
     border-bottom-right-radius: 30px;
 }
 
-
 .logo{
     padding-top: 1%;
     padding-left: 1%;
     float: left;
 }
 
-
 .h1{
     color: rgb(255, 255, 255);
     float: initial;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 46%;    
 }
-
 
 .twitter{
     width:35px;
@@ -52,13 +49,11 @@ header {
     cursor:pointer;
 }
 
-
 .intagram{
     width:35px;
     height:35px;
     cursor:pointer;
 }
-
 
 .facebook{
     width:35px;
@@ -68,7 +63,6 @@ header {
     cursor:pointer;
 }
 
-
 .menuhorizontal{
     margin: 0;
     padding: 0;
@@ -76,11 +70,9 @@ header {
     height: 30px;
 }
 
-
 .menuhorizontal ul{
     list-style: none;
 }
-
 
 .menuhorizontal li{
     display: inline;
@@ -91,29 +83,29 @@ header {
     height: 10%;
 }
         
-
 .menuhorizontal a{
     display: block;
     text-decoration: none;
     padding: 6px;
-    background-color: #17BF41;
+    background-color: #3aff1300;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
     font-weight: bold;
+    color: #18e111;
+    margin-left: 11%;
 }
-
 
 .menuhorizontal :hover{
-    background-color: #118F31;
+    background-color: #18e11100;
     text-decoration: none;
     color: #000000;
+    opacity: 1;
+    transition: background-color opacity 0.3s ease-in-out;
 }
-
 
 .menuhorizontal li.btnesquerdo{
     border: none;
 }
-
 
 footer{
     background-color: green;
@@ -121,26 +113,23 @@ footer{
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    margin-bottom: 1%;
 }
-
 
 .logoinstagram{
-    padding-left: 1.5%;
+    transform: translate(44%, 10%);
 }
 
-
-.intagramfacebook{
-    padding-left: 1.5%;
+.logofacebook{
+    transform: translate(51%, -99%);
 }
-
 
 .logotwitter{
-    padding-left: 1.5%;
+    transform: translate(49%, 105%);
 }
 
-
 main{
-    background-color: rgba(83, 234, 49, 0.74);
+    background-color: rgba(89, 239, 55, 0.74);
     margin-left: 7%;
     margin-right: 7%;
     height: 300px;
@@ -151,23 +140,19 @@ main{
     border-bottom-right-radius: 30px;
 }
 
-
 .h1main{
     padding-left:1%;
     padding-top:1%;
 }
 
-
 .tópico1 {
     margin-top: 3.5%;
 }
-
 
 .tópico2 {
     margin-top: 3%;
     margin-bottom: 3.5%;
 }
-
 
 .PalavraDoSocial {
     display: block;
@@ -179,9 +164,25 @@ main{
     transition: opacity 0.3s ease-in-out;
 }
 
-
 .logotwitter:hover .social-text,
 .logoinstagram:hover .social-text,
 .instagramfacebook:hover .social-text {
   opacity: 1;
+}
+
+.TextoDeTítulo1 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
+.ImagemNoFooter {
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, -215%);
+     
+}
+
+.h1contatos{
+    padding-left:1.5%;
 }
