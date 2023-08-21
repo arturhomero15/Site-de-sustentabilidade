@@ -121,11 +121,11 @@ footer{
 }
 
 .logofacebook{
-    transform: translate(51%, -99%);
+    transform: translate(51%, -95%);
 }
 
 .logotwitter{
-    transform: translate(49%, 105%);
+    transform: translate(48.5%, 105%);
 }
 
 main{
@@ -176,6 +176,24 @@ main{
     color: rgb(64, 96, 33);
 }
 
+.TextoDeTítulo2 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
+.TextoDeTítulo3 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
+.TextoDeTítulo4 {
+    text-align: center;
+    align-items: center;
+    color: rgb(64, 96, 33);
+}
+
 .ImagemNoFooter {
     display: flex;
     justify-content: center;
@@ -186,3 +204,4 @@ main{
 .h1contatos{
     padding-left:1.5%;
 }
+
