@@ -140,25 +140,7 @@ main{
 .tópico1 {
     margin-top: 3.5%;
     border: 3px solid black;
-}
-
-.tópico2 {
-    margin-top: 3%;
-    margin-bottom: 3.5%;
-    border: 3px solid black;
-}
-
-.tópico3 {
-    margin-top: 3%;
-    margin-bottom: 3.5%;
-    border: 3px solid black;
-}
-
-.tópico4 {
-    margin-top: 3%;
-    margin-bottom: 3.5%;
-    height: 50%;
-    border: 3px solid black;
+    margin-bottom: 5%;
 }
 
 .PalavraDoSocial {
@@ -183,24 +165,6 @@ main{
     color: rgb(0, 0, 0);
 }
 
-.TextoDeTítulo2 {
-    text-align: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-}
-
-.TextoDeTítulo3 {
-    text-align: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-}
-
-.TextoDeTítulo4 {
-    text-align: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-}
-
 footer{
     background-color: green;
     border-top-left-radius: 30px; 
@@ -210,6 +174,7 @@ footer{
     margin-bottom: 1%;
     height: 250px;
     border: 3px solid black;
+    padding-top: 0.75%;
 }
 
 .ImagemNoFooter {
@@ -223,3 +188,32 @@ footer{
     transform: translate(37%, 235%);
 }
 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.tópico2,
+.tópico3 {
+    width: calc(40% - 5%);
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: rgba(89, 239, 55, 0.74);
+    padding: 20px;
+    border: solid black 3px;
+}
+
+.tópico2 {
+    float: left;
+}
+
+.tópico3 {
+    float: right;
+}
