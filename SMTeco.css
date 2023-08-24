@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-color: rgba(29, 169, 104, 0);  
+    background-color: rgba(0, 0, 0, 0.646);  
     height: 150px;  
     border-top-left-radius: 30px; 
     border-top-right-radius: 30px;
@@ -223,3 +223,14 @@ footer{
     transform: translate(37%, 235%);
 }
 
+.imagemapoio1{
+transform: translate(150%, -67%);
+}
+
+.imagemapoio2{
+transform: translate(150%, -67%);
+}
+
+.imagemapoio3{
+    transform: translate(150%, -67%);
+}
