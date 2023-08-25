@@ -43,12 +43,6 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.twitter{
-    width:35px;
-    height:35px;
-    margin: 15px;
-    cursor:pointer;
-}
 
 .intagram{
     width:35px;
@@ -61,6 +55,13 @@ header {
     height:35px;
     text-align: end;
     margin-left: 18px;
+    cursor:pointer;
+}
+
+.twitter{
+    width:35px;
+    height:35px;
+    margin: 15px;
     cursor:pointer;
 }
 
@@ -109,15 +110,15 @@ header {
 }
 
 .logoinstagram{
-    transform: translate(44.5%, 10%);
+    transform: translate(44.5%, 110%);
 }
 
 .logotwitter{
-    transform: translate(50%, 88%);
+    transform: translate(50%, -75%);
 }
 
 .logofacebook{
-    transform: translate(46.5%, -90%);
+    transform: translate(46.5%, 13%);
 }
 
 main{
