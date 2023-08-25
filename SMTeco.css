@@ -28,6 +28,7 @@ header {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    color: white;
 }
 
 .logo{
@@ -36,7 +37,7 @@ header {
     float: left;
 }
 
-.NomeDaEmpresa{
+.nomedaempresa{
     color: rgb(255, 254, 254);
     float: initial;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -108,15 +109,15 @@ header {
 }
 
 .logoinstagram{
-    transform: translate(44%, 10%);
+    transform: translate(44.5%, 10%);
 }
 
 .logotwitter{
-    transform: translate(48%, 110%);
+    transform: translate(50%, 88%);
 }
 
 .logofacebook{
-    transform: translate(50.5%, -90%);
+    transform: translate(46.5%, -90%);
 }
 
 main{
@@ -214,7 +215,7 @@ footer{
 .ImagemNoFooter {
     display: flex;
     justify-content: center;
-    transform: translate(0%, -215%);
+    transform: translate(-1%, -250%);
 }
 
 .h1contatos{
